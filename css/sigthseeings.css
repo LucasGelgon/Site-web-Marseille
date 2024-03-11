@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+section {
+    padding: 20px;
+}
+
+.photo-sight {
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 2%;
+    margin-bottom: 60px;
+    background: white;
+    padding-top: 5%;
+
+}
+
+
+.photo-sight figure {
+    position: relative;
+    text-align: center;
+}
+
+.photo-sight figure img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.photo-sight figure figcaption {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%; 
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.7);
+    /*padding: 5px;*/
+    margin: 0;
+    opacity: 1; 
+}
+
+.photo-sight figure:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: whitesmoke;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+    z-index: 5;
+}
+
+.img_display{
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

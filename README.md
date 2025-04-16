@@ -3,7 +3,7 @@
 This project is a **static website** dedicated to exploring the city of **Marseille**, France.  
 It was created as part of a university course project and showcases historical, cultural, and practical information about the city.
 
-You can find the address at the following url : [lgelgon.fr/marseille](https://lgelgon.fr/marseille)
+You can find the website at the following url : [lgelgon.fr/marseille](https://lgelgon.fr/marseille)
 
 ---
 
